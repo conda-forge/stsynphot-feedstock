@@ -33,7 +33,7 @@ test:
     - stsynphot
 
 about:
-  home: http://www.github.com/spacetelescope/stsynphot_refactor
+  home: https://www.github.com/spacetelescope/stsynphot_refactor
   license: BSD-3-clause
   license_family: BSD
   license_file: LICENSE
@@ -42,8 +42,8 @@ about:
     This is a replacement for IRAF STSDAS SYNPHOT and ASTROLIB PYSYNPHOT,
     utilizing Astropy and covering instrument specific portions of the
     old packages for HST (and soon JWST).
-  doc_url: http://stsynphot.readthedocs.io/en/latest/
-  dev_url: http://www.github.com/spacetelescope/stsynphot_refactor
+  doc_url: https://stsynphot.readthedocs.io/en/latest/
+  dev_url: https://www.github.com/spacetelescope/stsynphot_refactor
 
 extra:
   recipe-maintainers:
