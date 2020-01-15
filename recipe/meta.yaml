@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 892a4ca30e9cd662d4847b2b6a2efb9211c0943419ef3bbe498bfbf2408bfe6b
-  patches:
-    - setup.cfg.patch
 
 build:
   number: 0
@@ -21,6 +19,7 @@ requirements:
     - pip
     - python
     - numpy
+    - extension-helpers
   run:
     - astropy
     - beautifulsoup4
