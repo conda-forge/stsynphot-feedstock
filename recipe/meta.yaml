@@ -1,5 +1,5 @@
 {% set name = "stsynphot" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,9 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4afb8d416f42d357aed68948e652a76178edf188b2bf7a8b037bba75c7852ac3
-  patches:
-    - setup.cfg.patch
+  sha256: 892a4ca30e9cd662d4847b2b6a2efb9211c0943419ef3bbe498bfbf2408bfe6b
 
 build:
   number: 0
@@ -21,6 +19,7 @@ requirements:
     - pip
     - python
     - numpy
+    - extension-helpers
   run:
     - astropy
     - beautifulsoup4
@@ -34,7 +33,7 @@ test:
     - stsynphot
 
 about:
-  home: http://www.github.com/spacetelescope/stsynphot_refactor
+  home: https://www.github.com/spacetelescope/stsynphot_refactor
   license: BSD-3-clause
   license_family: BSD
   license_file: LICENSE
@@ -43,8 +42,8 @@ about:
     This is a replacement for IRAF STSDAS SYNPHOT and ASTROLIB PYSYNPHOT,
     utilizing Astropy and covering instrument specific portions of the
     old packages for HST (and soon JWST).
-  doc_url: http://stsynphot.readthedocs.io/en/latest/
-  dev_url: http://www.github.com/spacetelescope/stsynphot_refactor
+  doc_url: https://stsynphot.readthedocs.io/en/latest/
+  dev_url: https://www.github.com/spacetelescope/stsynphot_refactor
 
 extra:
   recipe-maintainers:
