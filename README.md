@@ -1,7 +1,7 @@
 About stsynphot
 ===============
 
-Home: http://www.github.com/spacetelescope/stsynphot_refactor
+Home: https://www.github.com/spacetelescope/stsynphot_refactor
 
 Package license: BSD-3-clause
 
