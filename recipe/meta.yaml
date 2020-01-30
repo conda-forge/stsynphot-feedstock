@@ -23,11 +23,12 @@ requirements:
     - numpy
     - extension-helpers
   run:
-    - astropy
+    - python
+    - setuptools
     - beautifulsoup4
     - numpy
-    - python
     - scipy
+    - astropy
     - synphot
 
 test:
