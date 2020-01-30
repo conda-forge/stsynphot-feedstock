@@ -18,7 +18,6 @@ requirements:
   host:
     - pip
     - python
-    - setuptools
     - setuptools_scm
     - numpy
     - extension-helpers
