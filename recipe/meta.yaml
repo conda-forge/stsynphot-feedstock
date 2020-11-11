@@ -20,10 +20,8 @@ requirements:
     - python
     - setuptools_scm
     - numpy
-    - extension-helpers
   run:
     - python
-    - setuptools
     - beautifulsoup4
     - numpy
     - scipy
