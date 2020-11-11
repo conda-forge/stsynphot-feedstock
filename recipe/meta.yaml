@@ -10,7 +10,7 @@ source:
   sha256: 9d8ccf36ee5479f25c36c32232d262a254e1c20886315a66987d29eadc6a672c
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [py2k]
 
@@ -20,10 +20,8 @@ requirements:
     - python
     - setuptools_scm
     - numpy
-    - extension-helpers
   run:
     - python
-    - setuptools
     - beautifulsoup4
     - numpy
     - scipy
