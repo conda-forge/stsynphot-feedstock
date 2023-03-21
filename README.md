@@ -1,11 +1,11 @@
-About stsynphot
-===============
+About stsynphot-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/stsynphot-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.github.com/spacetelescope/stsynphot_refactor
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/stsynphot-feedstock/blob/main/LICENSE.txt)
 
 Summary: Synthetic photometry for HST/JWST
 

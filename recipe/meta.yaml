@@ -1,5 +1,5 @@
 {% set name = "stsynphot" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a134ac71139d706ea73ea2e8ef8ed048e11c0ba29585fdc9094e137c3d748fb5
+  sha256: c46ab40dfaaba2364e7555f98514c0b8bd57990cb1ae13f3776713240f816d62
 
 build:
-  number: 3
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [py2k]
 
