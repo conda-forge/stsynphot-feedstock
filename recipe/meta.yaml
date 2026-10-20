@@ -1,5 +1,5 @@
 {% set name = "stsynphot" %}
-{% set version = "1.5.1" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4d1812e3348fb859d8ab2f4dedf32b513398d13dfdaf0899d67a819e6daad187
+  sha256: 41ef1e2ea9d39af4ef560685975556ae377bcbaf22d0b25a7339d01653b85d77
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [py<310]
 
