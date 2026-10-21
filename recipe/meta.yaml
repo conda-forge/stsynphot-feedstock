@@ -12,7 +12,7 @@ source:
 build:
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
-  skip: true  # [py<310]
+  skip: true  # [py<311]
 
 requirements:
   build:
@@ -44,7 +44,7 @@ about:
   description: |
     This is a replacement for IRAF STSDAS SYNPHOT and ASTROLIB PYSYNPHOT,
     utilizing Astropy and covering instrument specific portions of the
-    old packages for HST (and soon JWST).
+    old packages for HST and JWST.
   doc_url: https://stsynphot.readthedocs.io/en/latest/
   dev_url: https://www.github.com/spacetelescope/stsynphot_refactor
 
