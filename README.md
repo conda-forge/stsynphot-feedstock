@@ -15,7 +15,7 @@ Documentation: https://stsynphot.readthedocs.io/en/latest/
 
 This is a replacement for IRAF STSDAS SYNPHOT and ASTROLIB PYSYNPHOT,
 utilizing Astropy and covering instrument specific portions of the
-old packages for HST (and soon JWST).
+old packages for HST and JWST.
 
 
 Current build status
